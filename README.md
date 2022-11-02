@@ -17,7 +17,8 @@ and Elementary I/O nodes scripting (what is called here for), even less.
 
 By mining and a lot of trial attempt, I managed to do it, though.
 This small project exemplifies how generic I/O accessor VIs can be created
-by means of undocumented LabVIEW scripting vis.
+by means of undocumented LabVIEW scripting VIs (and a few tricks, like cutting and repasting an incomplete
+diagram in order to auto-fix what I haven't found other way to set correctly).
 
 ## Instructions:
 
@@ -28,12 +29,12 @@ If so, take care to create, inside the Target, virtual folders for all the I/O c
 default names (like _Connector0/AI0_ etc.) are left unchanged.
 
 Now run **MainScriptCreateAllIOselectors.vi**. This will create four new VIS (or update them), and three
-enum typedefs. The generated VIS are the set and get case accessors for respectively all AI, all AO, all DI and all
-DO; the typedef controls allow to select the right case.
+enum typedefs. The generated VIS are the read and write case accessors for respectively all AI, all AO,
+all DI and all DO; the typedef'd enum controls allow to select the right case.
 
-To use the generated VIs in real FPGA code, you'd want to duplicated them inside the FPGA target virtual folder.
+To use the generated VIs in real FPGA code, you'd want to duplicate them inside the FPGA target virtual folder.
 
-Further comments are written on the BD of the various subVI where relevant.
+Further comments are written on the BD of the various subVIs where relevant.
 
 In the project I've also included a broken **NoDynamicIOref.vi** which exemplifies why things, unfortunately,
 cannot be coded the easy way.
