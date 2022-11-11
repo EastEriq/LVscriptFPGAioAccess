@@ -9,6 +9,12 @@ The only way to work around the limitation, and to achieve a sort of dynamical a
 found, would be to create gigantic case structures, in which the desired I/O terminal is picked up among all
 possible with the aid of an input selector.
 
+[![AO FP](images/AOselector.png)](images/AOselector.png)
+[![AO BD](images/AOselectorBD.png)](images/AOselector.png)
+[![AO FP](images/AIselector.png)](images/AIselector.png)
+[![AO FP](images/DOselector.png)](images/DOselector.png)
+[![AO FP](images/DIselector.png)](images/DIselector.png)
+
 Creating such case structures is obviously tedious in the IDE by clicking and dragging, and VI scripting is
 called for. Unfortunately [FPGA scripting](https://lavag.org/topic/16684-fpga-scripting/) is essentially
 [unsupported](https://lavag.org/topic/19564-use-scripting-on-fpga-interface-readwrite-control/?do=findComment&comment=118158)
