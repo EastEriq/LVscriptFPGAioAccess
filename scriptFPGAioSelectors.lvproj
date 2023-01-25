@@ -27,6 +27,15 @@
 			<Item Name="ScriptWireTunnels.vi" Type="VI" URL="../ScriptWireTunnels.vi"/>
 			<Item Name="ScriptWireTerminalsConpane.vi" Type="VI" URL="../ScriptWireTerminalsConpane.vi"/>
 			<Item Name="ScriptCreateEnumTypedef.vi" Type="VI" URL="../ScriptCreateEnumTypedef.vi"/>
+			<Item Name="ScriptSetIcon.vi" Type="VI" URL="../ScriptSetIcon.vi"/>
+		</Item>
+		<Item Name="icons" Type="Folder">
+			<Item Name="AIselector.png" Type="Document" URL="../icons/AIselector.png"/>
+			<Item Name="AOselector.png" Type="Document" URL="../icons/AOselector.png"/>
+			<Item Name="DIportSelector.png" Type="Document" URL="../icons/DIportSelector.png"/>
+			<Item Name="DIselector.png" Type="Document" URL="../icons/DIselector.png"/>
+			<Item Name="DOportSelector.png" Type="Document" URL="../icons/DOportSelector.png"/>
+			<Item Name="DOselector.png" Type="Document" URL="../icons/DOselector.png"/>
 		</Item>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
